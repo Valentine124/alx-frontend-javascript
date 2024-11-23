@@ -30,7 +30,7 @@ export default class HolbertonCourse {
   }
 
   set name(value) {
-    if (typeof name !== 'string') {
+    if (typeof value !== 'string') {
       throw new TypeError('Name must be a string');
     }
 
@@ -38,7 +38,7 @@ export default class HolbertonCourse {
   }
 
   set length(value) {
-    if (typeof length !== 'number') {
+    if (typeof value !== 'number') {
       throw new TypeError('Length must be a number');
     }
 
@@ -46,7 +46,7 @@ export default class HolbertonCourse {
   }
 
   set students(value) {
-    if (typeof students !== 'object') {
+    if (typeof value !== 'object') {
       throw new TypeError('Length must be an object');
     }
 
