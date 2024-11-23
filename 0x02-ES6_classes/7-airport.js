@@ -9,7 +9,7 @@ export default class Airport {
   }
 
   set code(value) {
-    this._code = code;
+    this._code = value;
   }
 
   get name() {
