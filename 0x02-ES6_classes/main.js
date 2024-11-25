@@ -1,5 +1,3 @@
-import Airport from "./7-airport.js";
+import listOfStudents from "./9-hoisting.js";
 
-const airportSF = new Airport('San Francisco Airport', 'SFO');
-console.log(airportSF);
-console.log(airportSF.toString());
+console.log(listOfStudents);
