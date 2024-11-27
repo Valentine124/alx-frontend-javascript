@@ -8,5 +8,5 @@ export default function creareInt8TypedArray(length, position, value) {
 
   view.setInt8(position, value);
 
-  return buff;
+  return view;
 }
